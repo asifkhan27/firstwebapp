@@ -28,4 +28,24 @@
 	<url-pattern>/deepsingh2</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+	<servlet-name>deep3</servlet-name>
+	<servlet-class>com.example.controller.ThirdServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>deep3</servlet-name>
+	<url-pattern>/deepsingh3</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>deep4</servlet-name>
+	<servlet-class>com.example.controller.Logout</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>deep4</servlet-name>
+	<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+	
 	</web-app>
